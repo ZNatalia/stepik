@@ -25,7 +25,7 @@ try:
     result = calc(int(val))
     input_answer = driver.find_element_by_css_selector("#answer")
     input_answer.send_keys(str(result))
-    #
+    #Click solve
     btn_solve = driver.find_element_by_css_selector("#solve")
     btn_solve.click()
 
